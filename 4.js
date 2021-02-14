@@ -1,4 +1,4 @@
-// Функция-конструктор для основного 
+// Функция-конструктор для основного объекта
 
 function ElectroDevice(name, power) {
     this.name = name;
@@ -17,7 +17,7 @@ ElectroDevice.prototype.connectControl = function(connected) {
     }
 }
 
-// Классы приборов
+// Функции-конструкторы объектов электроприборов
 
 function Phone(name, model, type, power) {
     this.name = name;
